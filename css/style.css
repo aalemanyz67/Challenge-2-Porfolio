@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;    
+}
+
+body{
+    min-height: 100vh;
+
+}
+.header{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(48, 76, 92);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  
+
+
+}
+.logo{
+    font-size:32px;
+    color: rgb(48, 76, 92);
+    text-align: none;
+    font-weight:700;
+    background-color: rgb(75, 180, 149);
+
+}
+.nav a {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+.sub-header-div {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 50%;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+    
+}
+.body{
+    display:flex;
+
+}
+#main{
+    width: 100%;
+    min-height:0px; 
+    background-color: grey;
+    margin-top: 4.5%;
+}
+#sidebar{
+    width:40%;
+    min-height:900px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    
+
+
+}
+#bodyarea{
+    width:60%;
+    min-height:900px;
+    background-color: white;
+    float: right;
+    text-align: Center;
+
+
+}
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.contactme{
+    font-size:32px;
+    font-family: sans-serif;
+    color: rgb(48, 76, 92);
+    text-align: none;
+    font-weight:700;
+    margin-top: 4%;
+    margin-left: 20%;
+    
+    
+    
+}
+.navfooter{
+    font-weight: 500;
+    text-decoration: none;
+    
+    text-align: right;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-right: 5%;
+    
+    
+}
+   
+.me {
+    font-family: sans-serif;
+    font-size: 40px;
+    color:rgb(48, 76, 92);
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    width:70px;
+    height:70px;
+    background-color: white;
+    padding-top: 10%;
+    padding-left: 25%;
+    
+    
+}
+.work {
+    font-family: sans-serif;
+    font-size: 40px;
+    color:rgb(48, 76, 92);
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    width:70px;
+    height:70px;
+    background-color: white;
+    padding-top: 40%;
+    padding-left: 25%;
+}
+.para{
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: 22px;
+    margin-top:3%;
+    text-align: left;
+    padding-right:10%;
+    padding-bottom: 2%
+    
+    
+    
+}
+
+
+    
+    
+
+
+.box{
+    
+    width:10%;
+    height:50%;
+    background: white;
+    box-sizing: flex;
+    font-size: 50px;
+    border:solid black;
+    Display:flex;
+    flex-direction: row;
+    padding-top:3%;
+    
+}
+@media screen and (max-width: 1200px) {
+    .box{ width: 40%}
+}
+    
+    
+
+
+
+   
+
+
