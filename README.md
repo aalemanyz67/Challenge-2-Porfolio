@@ -1,6 +1,10 @@
 # Challenge-2-Porfolio
-Title: Albert Alemam Webpage
-Objective: Create a porfolio for future career applications showcasing our skills.
+Title: Albert Alemam Porfolio
+Github: https://github.com/aalemanyz67/Challenge-2-Porfolio
+Porfolio Website:  https://aalemanyz67.github.io/Challenge-2-Porfolio/
+
+# Objective: 
+Create a porfolio for future career applications showcasing our skills.
 # Description
 The main idea behind this project was to create an engaging, iviting, interactive profile that we as aspiring developers could use in our future career applications. 
 My project at the moment is still in its begining phase. It includes a logo, nav bar, sidebar, body paragraph, and a footer. For this project I used various technologies such as youtube, tiktok,
